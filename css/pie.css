@@ -1,0 +1,53 @@
+.pie {
+    background:
+        radial-gradient(circle closest-side,
+            white 0,
+            white 59%,
+            transparent 59%,
+            transparent 100%,
+            #fafafa 0),
+        conic-gradient(from 90deg,
+            #eb7047 0,
+            #eb7047 calc((100%/6)*1),
+            #e05284 0,
+            #e05284 calc((100%/6)*2),
+            #537bf3 0,
+            #537bf3 calc((100%/6)*3),
+            #4cd6b4 0,
+            #4cd6b4 calc((100%/6)*4),
+            #75b76c 0,
+            #75b76c calc((100%/6)*5),
+            #edc949 0,
+            #edc949 calc((100%/6)*6));
+    position: relative;
+    width: 8vw;
+    min-height: 8vw;
+    margin: 0;
+}
+
+.pie_container {
+    position: relative;
+    transition: all .2s ease-out;
+    top: 0px;
+    z-index:20;
+}
+
+.pie_number {
+    font-family: 'Asap', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    top: calc(-4vw - 1rem);
+    z-index: 9;
+    height: 0px;
+}
+
+#pie_line {
+    height: 2000px;
+    border-left: 2px solid #aaa;
+    position:absolute;
+    width:0px;
+    margin-left:4%;
+    margin-top:0px;
+}

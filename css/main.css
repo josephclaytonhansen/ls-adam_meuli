@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Asap:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Caveat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0rem;
+    width: 100vw;
+    background-color: #fafafa;
+    overflow-x:hidden;
+
+}
+
+.below {
+    margin-top: 50px;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+}
+
+.below h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.below h3 {
+    font-family: 'Asap', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.below p {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.below button {
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid black;
+    padding: .5rem;
+    transition: .25s background-color, .15s color;
+    box-shadow: none;
+}
+
+.below button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.stage .stage_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.stage .stage_one .col {
+    flex: 2;
+}
+
+.stage_two{
+    margin-top:160px;
+    margin-left:calc(8vw + 2rem);
+}
+
+.quote p {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    margin-bottom:1rem;
+}
+
+.quote_attribution{
+    display:flex;
+    align-items: center;
+
+    gap:8px;
+}
+
+.quote_attribution img, img.circle {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.quote_attribution h3{
+    font-weight:500;
+    font-size:1rem;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .stage{
+        width:100vw;
+        margin-left:-20vw;
+    }
+
+    .below .stage .stage_one, .cards_row{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width:100%;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cards_row .card{
+        width:80vw;
+        min-width:80vw;
+        margin-left:-15vw!important;
+    }
+
+    .card_cta{
+        min-height:200px;
+        margin-top:20px!important;
+    }
+
+    .pie_container, #pie_line{
+        display:none;
+    }
+
+
+    
+}

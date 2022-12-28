@@ -1,0 +1,74 @@
+.cta{
+    width:80vw;
+    margin-left:5vw;
+    margin-top:-100px;
+    
+}
+
+.cta .left{
+    position:relative;
+    background-image: url('https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80');
+    background-position: center;
+    background-size:cover;
+    height:500px;
+    width:400px;
+    z-index:45;
+    padding:2rem;
+    bottom:-450px;
+}
+
+.cta .left p{
+    margin-bottom:1rem;
+    padding-bottom:1rem;
+}
+
+.cta .right{
+    background-color:black;
+    position:relative;
+    right:4vw;
+    width:70%;
+    height:500px;
+    left:200px;
+    padding:2rem;
+}
+
+.cta .right h2{
+    font-weight:600;
+    font-size:3rem;
+    color:white;
+    margin-left:40%;
+
+}
+
+.cta .right p{
+    margin-left:40%;
+    font-size:1.3rem;
+    color:white;
+}
+
+.cta .right button{
+    filter:invert(1);
+    margin-left:40%;
+}
+
+.cta .right button:hover{
+    filter:invert(1);
+}
+
+.cta .left p{
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    color:white;
+    position:absolute;
+    bottom:2rem;
+}
+
+.cta .left h3{
+    text-transform: uppercase;
+    font-family: 'Asap Condensed';
+    font-weight:400;
+    font-size:.8rem;
+    position:absolute;
+    bottom:2rem;
+    color:white;
+}

@@ -1,0 +1,65 @@
+.dot_background {
+    background-color: #fafafa;
+    height: 90vh;
+    overflow:hidden;
+    position:relative;
+}
+.hero{
+    display:flex;
+    position: relative;
+    height:90vh;
+    top:-90vh;
+
+    align-items: center;
+    justify-content: center;
+    z-index:5;
+    flex-direction: column;
+    margin-bottom: -90vh;
+}
+
+.hero .above_title{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size:1rem;
+    font-weight:700;
+}
+
+.hero .title, .hero .paragraph{
+    font-family: 'Asap', sans-serif;
+}
+
+.hero .title{
+    font-size:5rem;
+    margin:0;
+    margin-top:2rem;
+    font-weight:800;
+}
+
+.hero .paragraph{
+    margin-top:4rem;
+    color:#aaa;
+    font-weight: 300;
+}
+
+.mini_card {
+    width: 50px;
+    min-width: 50px;
+    height: 70px;
+    min-height: 70px;
+    box-shadow: 0px 5px 40px -20px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 5px 40px -20px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 5px 40px -20px rgba(0, 0, 0, .3);
+    position:relative;
+    left:20px;
+    top:20px;
+    background-color:#fcfcfc;
+    transition: top 1.5s ease-out;
+}
+
+.base{
+    width:100%;
+    min-width:100%;
+    height:10%;
+    min-height:10%;
+    position:relative;
+    top:90%;
+}
