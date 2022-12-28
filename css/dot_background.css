@@ -1,5 +1,5 @@
 .dot_background {
-    background-color: #fafafa;
+    background-color: var(--off-white);
     height: 90vh;
     overflow:hidden;
     position:relative;

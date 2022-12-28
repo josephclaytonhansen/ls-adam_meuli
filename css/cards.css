@@ -62,38 +62,34 @@
 }
 
 .cards_row :nth-child(1) .each .card_base{
-    background-color:#75b76c;
+    background-color:var(--color1);
 }
 
 .cards_row :nth-child(2) .each .card_base{
-    background-color:#edc949;
+    background-color:var(--color2);
 }
 
 .cards_row :nth-child(3) .each .card_base{
-    background-color:#eb7047;
+    background-color:var(--color3);
 }
 
 .cards_row :nth-child(4) .each .card_base{
-    background-color:#e05284;
-}
-
-.cards_row :nth-child(4) .each .card_base{
-    background-color:#e05284;
-}
-
-.cards_row :nth-child(4) .each .card_base{
-    background-color:#e05284;
+    background-color:var(--color4);
 }
 
 .cards_row :nth-child(5) .each .card_base{
-    background-color:#537bf3;
+    background-color:var(--color5);
 }
 
 .cards_row :nth-child(6) .each .card_base{
-    background-color:#4cd6b4;
+    background-color:var(--color6);
 }
 
 .cards_row :nth-child(7) .each .card_base{
+    background-color:#000;
+}
+
+.cards_row :nth-child(8) .each .card_base{
     background-color:#000;
 }
 

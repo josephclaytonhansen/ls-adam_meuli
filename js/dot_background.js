@@ -1,4 +1,4 @@
-var colors = ['hsl(16, 100%, 83%)', 'hsl(32, 100%, 83%)', 'hsl(72, 80%, 83%)', 'hsl(110, 75%, 83%)', 'hsl(160, 75%, 83%)', 'hsl(190, 77%, 80%)', 'hsl(220, 75%, 85%)'];
+var colors = ['hsl(165, 63%, 67%)', 'hsl(197, 63%, 67%)', 'hsl(72, 80%, 83%)', 'hsl(110, 75%, 73%)', 'hsl(160, 75%, 83%)', 'hsl(190, 77%, 80%)', 'hsl(126, 75%, 85%)'];
 window.addEventListener("DOMContentLoaded", (event) => {
     document.querySelectorAll(".base").forEach(function (e) {
         var color = colors[Math.floor(Math.random() * colors.length)];
@@ -25,3 +25,4 @@ window.addEventListener("scroll", function () {
         });
     };
 });
+
